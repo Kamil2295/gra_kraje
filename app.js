@@ -90,6 +90,15 @@ function sprawdz(p_k1, p_k2, wybrany){
     if(p_k1>p_k2 && wybrany=="2"){
         odpowiedz.style.backgroundColor = "red"
     }
+    
+    
+    if(p_k1<p_k2 && wybrany=="2"){
+        odpowiedz.style.backgroundColor = "green"
+    }
+
+    if(p_k1>p_k2 && wybrany=="1"){
+        odpowiedz.style.backgroundColor = "red"
+    }
 
 }
 
